@@ -1,0 +1,56 @@
+{
+  "HitStrings": {
+    "hit_init": [
+      " {striker} swings {striker_object_pronoun} {striking_weapon} at {strikee},",
+      " {striker} gracefully swings {striker_object_pronoun} {striking_weapon} towards {strikee},",
+      " With a loud grunt {striker} heaves {striker_object_pronoun} {striking_weapon} in {strikee}'s direction,",
+      " {striker} hurls {striker_object_pronoun} {striking_weapon} powerfully into {strikee},",
+      " {striker} notices an opening in {strikee}'s {hit_slot} and targets {strikee_pronoun},",
+      " {strikee} drops his guard for just a moment, enabling {striker} to get a cheap blow in,",
+      " {striker} lunges forward with immense power and speed, hitting {strikee} directly."
+    ],
+    "hit": [
+      " {striker} succesfully hits {strikee}'s {hit_slot} for {damage} damage",
+      " {striker}'s {striking_weapon} strikes true, causing {damage} to {strikee}",
+      " {striker} lands his attack, resulting in {strikee} to suffer {damage} damage"
+    ],
+    "absorbtion": [
+      " ({absorbtion} absorbed from {absorbtion_item})",
+      " ({strikee}'s armor holds strong, absorbing {absorbtion} from {absorbtion_item})",
+      " ({striker}'s weapon glances off {strikee}'s {absorbtion_item}, protecting him from {absorbtion} damage.})"
+    ]
+  },
+  "InitiationStrings": {
+    "init": [
+      "{strikee} spots something in the corner of {strikee_object_pronoun} eye and loses {strikee_object_pronoun} concentration. {striker} seizes the opportunity and charges right at {strikee}.",
+      "{striker} lets out a terrifying roar. {strikee} is petrified and breaks eye contact with {striker}, giving {striker} a chance to strike.",
+      "{striker} starts the bloody battle.",
+      "An audience member throws something at {strikee}, breaking his concentration. {striker} takes advantage of the opportunity and swiftly moves towards {strikee}.",
+      "Without a moment's hesitation {striker} lunges at {strikee}, not giving {strikee_pronoun} any chance to react.",
+      "{striker} smirks, confident in his ability to win as he slowly paces towards {strikee}."
+    ]
+  },
+  "DodgeStrings": {
+    "dodge": [
+      " but in the blink of an eye {strikee} sidesteps and avoids the incoming attack.",
+      " but {strikee} manages to narrowly avoid the strike at the last moment.",
+      " but {strikee} dodges the attack with seemingly no effort.",
+      " but {strikee} premptively dodges, avoiding {strikee}'s attack completely.",
+      " {strikee} reads {striker} like a book, avoiding {striker_pronoun}'s attack with ease."
+    ]
+  },
+  "ParryStrings": {
+    "parried": [
+      " but {strikee} swiftly brings {strikee_object_pronoun} {parry_weapon} up and successfully parries the attack.",
+      " but with a quick motion {strikee} parries the attack with {parry_weapon}.",
+      " but {strikee} seem to have predicted the move and manages to parry the attack with {parry_weapon}."
+    ],
+    "parried_fail": [
+      " {strikee} tried to parry with {parry_weapon} but failed,",
+      " {strikee} failed to parry with {parry_weapon},",
+      " {strikee} tried to parry with {parry_weapon} but failed,",
+      " {strikee} didn't manage to parry with {parry_weapon},",
+      " {strikee} miscalculates the trajectory of the strike and misses {strikee_object_pronoun} chance to parry,"
+    ]
+  }
+}

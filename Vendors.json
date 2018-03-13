@@ -1,0 +1,51 @@
+{
+  "Vendors": [
+    {
+      "Name": "Aeythin Wryn",
+      "Description": "Capicola venison pork loin pig, salami fatback kielbasa cow tail boudin chuck shankle meatball ribeye. Strip steak venison porchetta bresaola jowl flank ground round, pork chop tail ball tip. ",
+      "RaceRequirement": "Elf",
+      "LevelRequirement": 0,
+      "Open": true,
+      "Items": [
+        "Items.Hatchet",
+        "Items.Rusty_shortsword",
+        "Items.Buckler",
+        "Items.Leather_hood",
+        "Items.Leather_chestpiece",
+        "Items.Leather_pants",
+        "Items.Leather_boots",
+        "Items.Leather_gloves",
+        "Items.Two-handed_club",
+        "Items.Fascina",
+        "Items.Scimitar",
+        "Items.Bronze_dagger",
+        "Items.Warhammer",
+        "Items.Morningstar"
+      ]
+    },
+    {
+      "Name": "Bervlin Herom",
+      "Description": "Capicola venison pork loin pig, salami fatback kielbasa cow tail boudin chuck shankle meatball ribeye. Strip steak venison porchetta bresaola jowl flank ground round, pork chop tail ball tip. ",
+      "RaceRequirement": "Dwarf",
+      "LevelRequirement": 0,
+      "Open": true,
+      "Items": [
+        "Items.Hatchet",
+        "Items.Rusty_shortsword",
+        "Items.Buckler",
+        "Items.Leather_hood",
+        "Items.Leather_chestpiece",
+        "Items.Leather_pants",
+        "Items.Leather_boots",
+        "Items.Leather_gloves",
+        "Items.Two-handed_club",
+        "Items.Fascina",
+        "Items.Scimitar",
+        "Items.Bronze_dagger",
+        "Items.Warhammer",
+        "Items.Morningstar",
+        "Items.Dwarven_handaxe"
+      ]
+    }
+  ]
+}
