@@ -11,7 +11,7 @@
     ],
     "hit": [
       " {striker} succesfully hits {strikee}'s {hit_slot} for {damage} damage",
-      " {striker}'s {striking_weapon} strikes true, causing {damage} to {strikee}",
+      " {striker}'s {striking_weapon} strikes true, causing {damage} damage to {strikee}",
       " {striker} lands his attack, resulting in {strikee} to suffer {damage} damage"
     ],
     "absorbtion": [
