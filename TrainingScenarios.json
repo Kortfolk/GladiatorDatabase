@@ -2,8 +2,7 @@
   {
     "Name": "Lone bandit",
     "Description": "Just a lonely, naked Bandit trying to make some extra coin. Wielding nothing but a rust-covered Hatchet and a worn-out Buckler, this battle is perfect for new Gladiators looking to start their career. You gotta' start somewhere, right?",
-    "LevelRequirementMin": 1,
-    "LevelRequirementMax": 2,
+    "LevelRequirement": 1,
     "Creatures": [
       "Creatures.Bandit"
     ]
@@ -11,8 +10,7 @@
   {
     "Name": "Wolf pack",
     "Description": "This pack of three wolves have been bred solely for the purpose of combat and are not to be taken lightly. Their caramel coloured fur blends in perfectly with the Arena sand, making them hard to keep track of. This, in conjunction with their razor sharp teeth, make them extremely deadly opponents.",
-    "LevelRequirementMin": 2,
-    "LevelRequirementMax": 6,
+    "LevelRequirement": 2,
     "Creatures": [
       "Creatures.Alpha_rabid_wolf",
       "Creatures.Rabid_wolf",
@@ -22,8 +20,7 @@
   {
     "Name": "Goblins",
     "Description": "A common appearance all throughout the region, Goblins are well known for their relentless attacking style and fearless composure, as well as their raids on cities and encampments. These pale, green-skinned individuals wield Bronze Daggers in both hands, allowing them to attack with lethal speed.",
-    "LevelRequirementMin": 1,
-    "LevelRequirementMax": 3,
+    "LevelRequirement": 1,
     "Creatures": [
       "Creatures.Goblin",
       "Creatures.Goblin"
@@ -32,8 +29,7 @@
   {
     "Name": "Young lion",
     "Description": "Born and raised in the sand-swept desert just a few miles ride from the Arena, this Young Lion was captured and trained to be a vicious killing machine. After being kept in a cage not much bigger than the Lion itself, this natural predator is hungry for unprepared Gladiators.",
-    "LevelRequirementMin": 2,
-    "LevelRequirementMax": 6,
+    "LevelRequirement": 3,
     "Creatures": [
       "Creatures.Young_lion"
     ]

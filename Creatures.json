@@ -1,85 +1,103 @@
-{
-  "Creatures": [
-    {
-      "Name":  "Bandit",
-      "Gender":  "Male",
-      "Description":  "A Bandit",
-      "MinLevelRequirement":  1,
-      "MaxLevelRequirement":  4,
-      "MaxHealth":  25,
-      "Race":  "Human",
-      "StatStamina":  25,
-      "StatEndurance":  20,
-      "StatStrength":  15,
-      "StatInitiative":  0,
-      "StatAxe":  35,
-      "StatShield":  20,
-      "ExpYield":  25,
-      "CoinYield":  2
-    },
-    {
-      "Name":  "Goblin",
-      "Gender":  "Male",
-      "Description":  "Lorem ipsum",
-      "MinLevelRequirement":  1,
-      "MaxLevelRequirement":  4,
-      "MaxHealth":  15,
-      "Race":  "Other",
-      "StatStamina":  15,
-      "StatEndurance":  15,
-      "StatStrength":  15,
-      "StatInitiative":  0,
-      "StatSword":  35,
-      "ExpYield":  10,
-      "CoinYield":  2
-    },
-    {
-      "Name":  "Young lion",
-      "Gender":  "Male",
-      "Description":  "Lorem ipsum",
-      "MinLevelRequirement":  1,
-      "MaxLevelRequirement":  4,
-      "MaxHealth":  30,
-      "Race":  "Human",
-      "StatStamina":  25,
-      "StatEndurance":  50,
-      "StatStrength":  15,
-      "StatInitiative":  30,
-      "StatSword":  60,
-      "ExpYield":  35,
-      "CoinYield":  5
-    },
-    {
-      "Name":  "Alpha rabid wolf",
-      "Gender":  "Male",
-      "Description":  "A rabid wolf",
-      "MinLevelRequirement":  2,
-      "MaxLevelRequirement":  6,
-      "MaxHealth":  25,
-      "Race":  "Other",
-      "StatStamina":  30,
-      "StatEndurance":  30,
-      "StatStrength":  25,
-      "StatInitiative":  25,
-      "StatSword":  25,
-      "ExpYield":  35,
-      "CoinYield":  3
-    },
-    {
-      "Name":  "Rabid wolf",
-      "Gender":  "Male",
-      "Description":  "A rabid wolf",
-      "MinLevelRequirement":  2,
-      "MaxLevelRequirement":  6,
-      "MaxHealth":  15,
-      "Race":  "Other",
-      "StatStamina":  30,
-      "StatEndurance":  30,
-      "StatStrength":  15,
-      "StatInitiative":  25,
-      "StatSword":  20,
-      "ExpYield":  25,
-      "CoinYield":  2
-    }
-  ]
-}
+[
+  {
+    "Name": "Bandit",
+    "Gender": "Male",
+    "Description": "A Bandit",
+    "MinLevelRequirement": 1,
+    "MaxLevelRequirement": 4,
+    "MaxHealth": 25,
+    "Race": "Human",
+    "StatStamina": 25,
+    "StatEndurance": 20,
+    "StatStrength": 15,
+    "StatInitiative": 0,
+    "StatAxe": 35,
+    "StatShield": 20,
+    "ExpYield": 25,
+    "CoinYield": 2,
+    "Items": [
+      {
+        "Name": "Items.Hatchet",
+        "WieldSlot": "Mainhand"
+      },
+      {
+        "Name": "Items.Buckler",
+        "WieldSlot": "Offhand"
+      }
+    ]
+  },
+  {
+    "Name": "Goblin",
+    "Gender": "Male",
+    "Description": "Lorem ipsum",
+    "MinLevelRequirement": 1,
+    "MaxLevelRequirement": 4,
+    "MaxHealth": 15,
+    "Race": "Other",
+    "StatStamina": 15,
+    "StatEndurance": 15,
+    "StatStrength": 15,
+    "StatInitiative": 0,
+    "StatSword": 35,
+    "ExpYield": 10,
+    "CoinYield": 2,
+    "Items": [
+      {
+        "Name": "Items.Bronze_dagger",
+        "WieldSlot": "Mainhand"
+      },
+      {
+        "Name": "Items.Bronze_dagger",
+        "WieldSlot": "Offhand"
+      }
+    ]
+  },
+  {
+    "Name": "Young lion",
+    "Gender": "Male",
+    "Description": "Lorem ipsum",
+    "MinLevelRequirement": 1,
+    "MaxLevelRequirement": 4,
+    "MaxHealth": 30,
+    "Race": "Human",
+    "StatStamina": 25,
+    "StatEndurance": 50,
+    "StatStrength": 15,
+    "StatInitiative": 30,
+    "StatSword": 60,
+    "ExpYield": 35,
+    "CoinYield": 5
+  },
+  {
+    "Name": "Alpha rabid wolf",
+    "Gender": "Male",
+    "Description": "A rabid wolf",
+    "MinLevelRequirement": 2,
+    "MaxLevelRequirement": 6,
+    "MaxHealth": 25,
+    "Race": "Other",
+    "StatStamina": 30,
+    "StatEndurance": 30,
+    "StatStrength": 25,
+    "StatInitiative": 25,
+    "StatSword": 25,
+    "ExpYield": 35,
+    "CoinYield": 3
+  },
+  {
+    "Name": "Rabid wolf",
+    "Gender": "Male",
+    "Description": "A rabid wolf",
+    "MinLevelRequirement": 2,
+    "MaxLevelRequirement": 6,
+    "MaxHealth": 15,
+    "Race": "Other",
+    "StatStamina": 30,
+    "StatEndurance": 30,
+    "StatStrength": 15,
+    "StatInitiative": 25,
+    "StatSword": 20,
+    "ExpYield": 25,
+    "CoinYield": 2
+  }
+]
